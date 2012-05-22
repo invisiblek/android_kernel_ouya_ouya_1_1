@@ -75,6 +75,8 @@ static struct fb_videomode tegra_dc_hdmi_fallback_mode = {
 
 static struct tegra_dc_mode override_disp_mode[3];
 
+static struct tegra_dc_mode override_disp_mode[3];
+
 static void _tegra_dc_controller_disable(struct tegra_dc *dc);
 
 struct tegra_dc *tegra_dcs[TEGRA_MAX_DC];
